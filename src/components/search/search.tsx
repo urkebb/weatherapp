@@ -6,7 +6,7 @@ import Dropdown from '../dropdown/dropdown';
 const Search = () => {
   const [location, setLocation] = useState('');
   const [code, setCode] = useState('');
-
+// jel vidis sta sam napisao
   const sendCodeToParent = (country: any) => {
     setCode(country);
     console.log(code);
